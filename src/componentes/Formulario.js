@@ -10,7 +10,7 @@ const Formulario = ({ onSubmit }) => {
   const manejarCambio = e => {
 
     setInput(e.target.value);
-  }
+  };
 
 
   const manejarEnvio = e => {
@@ -22,7 +22,7 @@ const Formulario = ({ onSubmit }) => {
       completada: false
     }
     { onSubmit(tareaNueva) };
-  }
+  };
 
   return (
 
